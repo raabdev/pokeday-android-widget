@@ -19,7 +19,7 @@ class MyAppWidgetProvider : AppWidgetProvider() {
             // Get the layout for the App Widget and attach an on-click listener
             // to the button
             val views: RemoteViews = RemoteViews(context.packageName, R.layout.layout_widget_home)
-
+            views.setCharSequence(R.id.textView_pokemon_name, null, "pepe")
             // Tell the AppWidgetManager to perform an update on the current app widget
             appWidgetManager.updateAppWidget(appWidgetId, views)
         }
