@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.pokemon"
+        applicationId "com.example.pokemon.pokemondaywidget"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
